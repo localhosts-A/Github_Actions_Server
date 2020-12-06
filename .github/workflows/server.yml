@@ -37,4 +37,4 @@ jobs:
           wget https://getfrp.sh/d/frpc_linux_amd64
           sudo mv frpc_linux_amd64 /usr/bin/frpc
           sudo chmod 777 /usr/bin/frpc
-          sudo frpc -f ${{secrets.KEY}}:597080
+          sudo frpc -f ${{secrets.KEY}}:596741
